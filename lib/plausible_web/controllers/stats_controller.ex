@@ -384,6 +384,6 @@ defmodule PlausibleWeb.StatsController do
   end
 
   defp title(_conn, site) do
-    "Plausible · " <> site.domain
+    "Ikani Analytics · " <> site.domain
   end
 end

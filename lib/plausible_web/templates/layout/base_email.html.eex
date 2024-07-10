@@ -5,11 +5,11 @@
 <br /><br />
 
 <%= if ee?() do %>Regards,<br />
-The Plausible Team 💌
+Equipo Ikani 💌
 <br /><br /><% end %>
 
 --
 <br /><br />
-<%= link(plausible_url(), to: plausible_url()) %><br />
+<%= link("Ikani Digital", to: "ikanidigital.com") %><br />
 
 <%= if ee?() do %>{{{ pm:unsubscribe }}}<% end %>

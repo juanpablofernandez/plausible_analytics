@@ -14,7 +14,7 @@
       <meta name="websocket-url" content={websocket_url()} />
     <% end %>
     <PlausibleWeb.Components.Layout.favicon conn={@conn} />
-    <title><%= assigns[:title] || "Plausible · Web analytics" %></title>
+    <title><%= assigns[:title] || "Ikani · Web analytics" %></title>
     <link rel="stylesheet" href={Routes.static_path(@conn, "/css/app.css")} />
     <%= render("_tracking.html", assigns) %>
   </head>
