@@ -18,8 +18,6 @@ defmodule PlausibleWeb.RequireLoggedOutPlug do
 
       :else ->
         conn
-        |> Phoenix.Controller.redirect(to: "/login")
-        |> halt
     end
   end
 end
